@@ -12,7 +12,7 @@
 }
 
 .navBar {
-  @apply -z-10 absolute top-0 h-screen w-screen md:w-full md:h-full gap-8 justify-end flex flex-col md:relative md:flex-row md:gap-3 lg:gap-8 items-center;
+  @apply -z-10 absolute top-0 h-screen w-screen md:w-full md:h-full gap-8 md:justify-end flex flex-col md:relative md:flex-row md:gap-3 lg:gap-8 items-center;
   transition: all 0.3s linear;
 }
 .hiddenNavBar {
