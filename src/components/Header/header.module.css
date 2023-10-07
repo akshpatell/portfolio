@@ -3,7 +3,7 @@
   backdrop-filter: blur(50px);
 
   & .navToggler {
-    @apply md:hidden hover:cursor-pointer;
+    @apply sm:hidden hover:cursor-pointer;
 
     & .togglerIcon {
       @apply w-6 aspect-square text-white;
@@ -12,14 +12,14 @@
 }
 
 .navBar {
-  @apply -z-10 absolute top-0 h-screen w-screen md:w-full md:h-full gap-8 md:justify-end justify-center flex flex-col md:relative md:flex-row md:gap-3 lg:gap-8 items-center;
+  @apply -z-10 absolute top-0 h-screen w-screen sm:w-full sm:h-full gap-8 sm:justify-end justify-center flex flex-col sm:relative sm:flex-row sm:gap-3 lg:gap-8 items-center;
   transition: all 0.3s linear;
 }
 .hiddenNavBar {
-  @apply left-[-110%] md:left-0;
+  @apply right-[-110%] sm:left-0;
 }
 .visibleNavbar {
-  @apply left-0 bg-emerald-600;
+  @apply right-0 bg-emerald-600 w-[75%];
 }
 
 .link {
