@@ -19,8 +19,14 @@ const Male = () => {
           click on the button to contact me
         </p>
       </div>
-      <div className="bg-emerald-600 rounded-lg">
-        <Image src="/images/person.png" width={300} height={300} alt="alt" />
+      <div>
+        <Image
+          src="/images/aksh.jpg"
+          width={300}
+          height={300}
+          alt="alt"
+          className="rounded-lg"
+        />
       </div>
     </div>
   );
