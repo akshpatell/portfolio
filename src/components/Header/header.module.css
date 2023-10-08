@@ -16,10 +16,10 @@
   transition: all 0.3s linear;
 }
 .hiddenNavBar {
-  @apply right-[-110%] sm:left-0;
+  @apply left-[-110%] sm:left-0;
 }
 .visibleNavbar {
-  @apply right-0 bg-emerald-600 w-[75%];
+  @apply left-0 bg-emerald-600 w-[75%];
 }
 
 .link {

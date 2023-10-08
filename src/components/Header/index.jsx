@@ -28,10 +28,6 @@ const Header = () => {
 
   return (
     <header style={{ height: "4rem" }} className={styles.header}>
-      <Link href="/" className="text-white text-xl w-full">
-        AKSH PATEL
-      </Link>
-
       <div className={styles.navToggler} onClick={handleNavToggler}>
         {navToggler ? (
           <svg
@@ -65,6 +61,10 @@ const Header = () => {
           </svg>
         )}
       </div>
+      <Link href="/" className="text-white text-xl sm:w-full">
+        AKSH PATEL
+      </Link>
+
       <nav
         className={`${
           navToggler ? styles.visibleNavbar : styles.hiddenNavBar
