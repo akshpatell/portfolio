@@ -3,7 +3,7 @@ import React from "react";
 
 const Male = () => {
   return (
-    <div className=" flex justify-center items-center p-5 bg-emerald-800 gap-5 flex-wrap-reverse h-screen w-full">
+    <div className=" flex justify-center items-center p-2 bg-emerald-800 sm:gap-5 flex-wrap-reverse h-screen w-full">
       <div>
         <h1 className="text-5xl max-sm:text-4xl font-semiboldbold text-white">
           Software Developer:
