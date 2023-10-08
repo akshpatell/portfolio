@@ -7,13 +7,13 @@ const Male = () => {
     <div className=" flex justify-center items-center p-5 bg-emerald-800 gap-5 flex-wrap-reverse w-full">
       <div className="flex flex-col gap-3">
         <div>
-          <h1 className="text-5xl max-sm:text-4xl font-semiboldbold text-white">
+          <h1 className="text-5xl max-sm:text-3xl font-semiboldbold text-white">
             Software Developer:
           </h1>
-          <h1 className="text-5xl max-sm:text-4xl font-semiboldbold text-white">
+          <h1 className="text-5xl max-sm:text-3xl font-semiboldbold text-white">
             Transforming Ideas into
           </h1>
-          <h1 className="text-5xl max-sm:text-4xl font-semibold text-red-500">
+          <h1 className="text-5xl max-sm:text-3xl font-semibold text-red-500">
             Digital Reality
           </h1>
           <p className="text-white font-thin text-lg max-sm:text-base">
