@@ -4,7 +4,7 @@ import React from "react";
 
 const Male = () => {
   return (
-    <div className=" flex justify-center items-center p-5 bg-emerald-800 gap-5 flex-wrap-reverse w-full">
+    <div className=" flex justify-center items-center p-5 bg-emerald-800 gap-5 flex-wrap-reverse w-full max-sm:h-screen">
       <div className="flex flex-col gap-3">
         <div>
           <h1 className="text-5xl max-sm:text-3xl font-semiboldbold text-white">
