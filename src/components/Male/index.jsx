@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import Style from "./male.module.css";
 
 const Male = () => {
   return (
-    <div className=" flex justify-center items-center p-5 bg-emerald-800 gap-5 flex-wrap-reverse w-full sm:h-[calc(100vh-64px)] h-screen">
+    <div className={Style.main}>
       <div className="flex flex-col gap-3">
         <div>
           <h1 className="text-5xl max-sm:text-3xl font-semiboldbold text-white">
@@ -13,7 +14,7 @@ const Male = () => {
           <h1 className="text-5xl max-sm:text-3xl font-semiboldbold text-white">
             Transforming Ideas into
           </h1>
-          <h1 className="text-5xl max-sm:text-3xl font-semibold text-red-500">
+          <h1 className="text-5xl max-sm:text-3xl font-semibold text-[#800080]">
             Digital Reality
           </h1>
           <p className="text-white font-thin text-lg max-sm:text-base">
@@ -22,8 +23,8 @@ const Male = () => {
           </p>
         </div>
         <div className="flex gap-3">
-          <Link href="/contact-me">
-            <button className="text-white bg-red-500 py-2 px-5 rounded-full hover:bg-red-600 ">
+          <Link href="https://api.whatsapp.com/send/?phone=%2B917016913718&text&type=phone_number&text=I%20want%20to%20understand%20about">
+            <button className="text-white bg-[#800080] py-2 px-5 rounded-full hover:bg-[#800080d0] ">
               Contact me
             </button>
           </Link>

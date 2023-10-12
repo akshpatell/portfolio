@@ -3,10 +3,11 @@ import React, { useState } from "react";
 import Link from "next/link";
 import styles from "./header.module.css";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
+// import Image from "next/image";
 
 const navbarData = [
   { title: "Home", link: "/" },
+  { title: "Resume", link: "/resume" },
   { title: "About", link: "/about" },
   {
     title: "Skill",
@@ -61,7 +62,7 @@ const Header = () => {
           </svg>
         )}
       </div>
-      <Link href="/" className="text-white text-xl sm:w-full">
+      <Link href="/" className="text-[#800080] text-2xl sm:w-full ">
         AKSH PATEL
       </Link>
 
@@ -76,9 +77,9 @@ const Header = () => {
               <Link
                 key={item.title}
                 href={item.link}
-                className={`subtitle1 text-white hover:opacity-100 duration-300 ${
+                className={`font-semibold text-[#800080] hover:opacity-100 duration-300 ${
                   styles.link
-                } ${pathname === item.link ? styles.activeLink : "opacity-70"}`}
+                } ${pathname === item.link ? styles.activeLink : ""}`}
                 onClick={closeNavToggler}
               >
                 {item.title}
@@ -86,7 +87,7 @@ const Header = () => {
             );
           })}
         {/* <div className="flex space-x-4"> */}
-        <Link href="https://github.com/akshpatell">
+        {/* <Link href="https://github.com/akshpatell">
           <Image src="/images/github.png" width={30} height={30} alt="alt" />
         </Link>{" "}
         <Link href="https://www.linkedin.com/in/akshpatel2003">
@@ -105,7 +106,7 @@ const Header = () => {
         <Link href="https://www.instagram.com/syztechnologies/">
           {" "}
           <Image src="/images/Instagram.png" width={30} height={30} alt="alt" />
-        </Link>
+        </Link> */}
         {/* </div> */}
       </nav>
     </header>
