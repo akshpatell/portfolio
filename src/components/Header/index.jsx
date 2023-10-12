@@ -87,12 +87,12 @@ const Header = () => {
           })}
         <div className="flex space-x-4">
           <Link href="https://github.com/akshpatell">
-            <Image src="/images/github.png" width={30} height={30} alt="alt" />
+            <Image src="/images/Github.png" width={30} height={30} alt="alt" />
           </Link>{" "}
           <Link href="https://www.linkedin.com/in/akshpatel2003">
             {" "}
             <Image
-              src="/images/linkedin.png"
+              src="/images/Linkedin.png"
               width={30}
               height={30}
               alt="alt"
@@ -100,7 +100,21 @@ const Header = () => {
           </Link>{" "}
           <Link href="https://twitter.com/akshpatel08">
             {" "}
-            <Image src="/images/twitter.png" width={30} height={30} alt="alt" />
+            <Image
+              src="/images/Twitterx.png"
+              width={30}
+              height={30}
+              alt="alt"
+            />
+          </Link>
+          <Link href="https://www.instagram.com/syztechnologies/">
+            {" "}
+            <Image
+              src="/images/Instagram.png"
+              width={30}
+              height={30}
+              alt="alt"
+            />
           </Link>
         </div>
       </nav>

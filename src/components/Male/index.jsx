@@ -36,7 +36,7 @@ const Male = () => {
       </div>
       <div>
         <Image
-          src="/images/aksh.jpg"
+          src="/images/Aksh.jpg"
           width={300}
           height={300}
           alt="alt"
