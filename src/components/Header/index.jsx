@@ -85,38 +85,28 @@ const Header = () => {
               </Link>
             );
           })}
-        <div className="flex space-x-4">
-          <Link href="https://github.com/akshpatell">
-            <Image src="/images/Github.png" width={30} height={30} alt="alt" />
-          </Link>{" "}
-          <Link href="https://www.linkedin.com/in/akshpatel2003">
-            {" "}
-            <Image
-              src="/images/Linkedin.png"
-              width={30}
-              height={30}
-              alt="alt"
-            />{" "}
-          </Link>{" "}
-          <Link href="https://twitter.com/akshpatel08">
-            {" "}
-            <Image
-              src="/images/Twitterx.png"
-              width={30}
-              height={30}
-              alt="alt"
-            />
-          </Link>
-          <Link href="https://www.instagram.com/syztechnologies/">
-            {" "}
-            <Image
-              src="/images/Instagram.png"
-              width={30}
-              height={30}
-              alt="alt"
-            />
-          </Link>
-        </div>
+        {/* <div className="flex space-x-4"> */}
+        <Link href="https://github.com/akshpatell">
+          <Image src="/images/Github.png" width={30} height={30} alt="alt" />
+        </Link>{" "}
+        <Link href="https://www.linkedin.com/in/akshpatel2003">
+          {" "}
+          <Image
+            src="/images/Linkedin.png"
+            width={30}
+            height={30}
+            alt="alt"
+          />{" "}
+        </Link>{" "}
+        <Link href="https://twitter.com/akshpatel08">
+          {" "}
+          <Image src="/images/Twitterx.png" width={30} height={30} alt="alt" />
+        </Link>
+        <Link href="https://www.instagram.com/syztechnologies/">
+          {" "}
+          <Image src="/images/Instagram.png" width={30} height={30} alt="alt" />
+        </Link>
+        {/* </div> */}
       </nav>
     </header>
   );
