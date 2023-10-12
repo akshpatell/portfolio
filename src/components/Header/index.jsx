@@ -87,12 +87,12 @@ const Header = () => {
           })}
         {/* <div className="flex space-x-4"> */}
         <Link href="https://github.com/akshpatell">
-          <Image src="/images/Github.png" width={30} height={30} alt="alt" />
+          <Image src="/images/github.png" width={30} height={30} alt="alt" />
         </Link>{" "}
         <Link href="https://www.linkedin.com/in/akshpatel2003">
           {" "}
           <Image
-            src="/images/Linkedin.png"
+            src="/images/linkedin.png"
             width={30}
             height={30}
             alt="alt"
