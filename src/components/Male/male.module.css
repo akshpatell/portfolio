@@ -1,5 +1,5 @@
 .main {
-  @apply flex justify-between items-center p-5 bg-gray-950 gap-5 flex-wrap-reverse w-full sm:h-[calc(100vh-64px)] h-screen px-container;
+  @apply flex justify-between items-center p-5 bg-gray-950 flex-wrap-reverse w-full sm:h-[calc(100vh-64px)] h-screen px-container;
   @media (max-width: 1189px) {
     justify-content: center;
   }
