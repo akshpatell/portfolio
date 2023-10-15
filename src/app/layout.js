@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <>
       <html lang="en">
         <body className={inter.className}>{children}</body>
-        <div className="fixed bottom-8 right-8 z-50 h-16 w-16 flex flex-col-reverse gap-10 max-sm:flex-row-reverse">
+        <div className="fixed bottom-8 right-8 z-50 h-16 w-16 flex max-lg:bottom-16">
           <a
             className="relative flex h-[60px] w-[60px]"
             href="https://github.com/akshpatell"
@@ -39,14 +39,16 @@ export default function RootLayout({ children }) {
               </svg>
             </span>
           </a>
+        </div>
+        <div className="fixed bottom-8 left-8 z-50 h-16 w-16 flex max-lg:bottom-16">
           <a
             className="relative flex h-[60px] w-[60px]"
             href="/images/linkedin.png"
             target="_blank"
           >
             <span className="sr-only">Linkedin Icon</span>
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#0b0080] opacity-75"></span>
-            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-[#0b0080]">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#800080] opacity-75"></span>
+            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-[#800080]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
