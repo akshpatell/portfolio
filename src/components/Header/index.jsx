@@ -7,7 +7,7 @@ import { usePathname } from "next/navigation";
 
 const navbarData = [
   { title: "Home", link: "/" },
-  { title: "Resume", link: "/resume" },
+  { title: "Product", link: "/product" },
   { title: "About", link: "/about" },
   {
     title: "Skill",

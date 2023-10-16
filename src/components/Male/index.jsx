@@ -28,9 +28,9 @@ const Male = () => {
               Contact me
             </button>
           </Link>
-          <Link href="/products">
+          <Link href="https://drive.google.com/file/d/1BQ20hFfGouVhazjeIyY-lj0Ny1REu7Rp/view?usp=drivesdk">
             <button className="text-black bg-white py-2 px-5 rounded-full hover:bg-gray-300 ">
-              Products
+              Resume
             </button>
           </Link>
         </div>
