@@ -6,6 +6,18 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    colors: {
+      transparent: "transparent",
+      currentColor: "currentColor",
+      white: "#FFFFFF",
+      black: "#000000",
+      purple: "#800080",
+      gray: {
+        light: "#d3d3d3",
+        DEFAULT: "#808080",
+        dark: "#101010",
+      },
+    },
     extend: {
       spacing: {
         container: `max(

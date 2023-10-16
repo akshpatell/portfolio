@@ -20,14 +20,14 @@ export default function RootLayout({ children }) {
             target="_blank"
           >
             <span className="sr-only">Github Icon</span>
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#6b656b] opacity-75"></span>
-            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-[#6b656b]">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple opacity-75"></span>
+            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-purple">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
                 width={36}
                 height={36}
-                fill="#ffffffCC"
+                fill="white"
                 fill-rule="nonzero"
                 font-family="none"
                 font-weight="none"
@@ -47,14 +47,14 @@ export default function RootLayout({ children }) {
             target="_blank"
           >
             <span className="sr-only">Linkedin Icon</span>
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#800080] opacity-75"></span>
-            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-[#800080]">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple opacity-75"></span>
+            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-purple">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
                 width={30}
                 height={30}
-                fill="#ffffff"
+                fill="white"
                 fill-rule="nonzero"
                 font-family="none"
                 font-weight="none"
