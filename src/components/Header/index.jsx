@@ -61,7 +61,7 @@ const Header = () => {
           </svg>
         )}
       </div>
-      <Link href="/" className="text-purple text-2xl sm:w-full ">
+      <Link href="/" className="text-green text-3xl sm:w-full ">
         AKSH PATEL
       </Link>
 
@@ -76,7 +76,7 @@ const Header = () => {
               <Link
                 key={item.title}
                 href={item.link}
-                className={`font-semibold text-purple hover:opacity-100 duration-300 ${
+                className={`font-semibold text-green hover:opacity-100 duration-300 text-xl ${
                   styles.link
                 } ${pathname === item.link ? styles.activeLink : ""}`}
                 onClick={closeNavToggler}

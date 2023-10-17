@@ -1,12 +1,12 @@
 .header {
-  @apply z-50 sticky top-0 flex justify-between items-center bg-gray-dark px-container;
+  @apply z-50 sticky top-0 flex justify-between items-center bg-black px-container;
   backdrop-filter: blur(50px);
 
   & .navToggler {
     @apply sm:hidden hover:cursor-pointer;
 
     & .togglerIcon {
-      @apply w-6 aspect-square text-purple;
+      @apply w-6 aspect-square text-green;
     }
   }
 }
@@ -19,7 +19,7 @@
   @apply left-[-110%] sm:left-0;
 }
 .visibleNavbar {
-  @apply left-0 bg-gray-dark w-[75%];
+  @apply left-0 bg-black w-[75%];
 }
 
 .link {
@@ -32,7 +32,7 @@
   width: 0%;
   bottom: 0;
   left: 0;
-  border-bottom: 1px solid purple;
+  border-bottom: 1px solid #17b877;
   transition: width 0.3s ease-out;
 }
 

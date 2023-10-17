@@ -20,8 +20,8 @@ export default function RootLayout({ children }) {
             target="_blank"
           >
             <span className="sr-only">Github Icon</span>
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple opacity-75"></span>
-            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-purple">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green opacity-75"></span>
+            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"
@@ -47,8 +47,8 @@ export default function RootLayout({ children }) {
             target="_blank"
           >
             <span className="sr-only">Linkedin Icon</span>
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-purple opacity-75"></span>
-            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-purple">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green opacity-75"></span>
+            <span className="relative flex h-[60px] w-[60px] items-center justify-center rounded-full bg-green">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 48 48"

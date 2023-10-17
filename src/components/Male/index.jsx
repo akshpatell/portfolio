@@ -13,7 +13,7 @@ const Male = () => {
         <h1 className="text-5xl max-sm:text-3xl font-semiboldbold text-white">
           Molding Imagination into
         </h1>
-        <h1 className="text-5xl max-sm:text-3xl font-semibold text-[#800080]">
+        <h1 className="text-5xl max-sm:text-3xl font-semibold text-green">
           Digital Form
         </h1>
         <p className="text-white font-thin text-lg max-sm:text-base">
@@ -24,7 +24,7 @@ const Male = () => {
 
         <div className="flex gap-3">
           <Link href="https://api.whatsapp.com/send/?phone=%2B917016913718&text&type=phone_number&text=I%20want%20to%20understand%20about">
-            <button className="text-white bg-[#800080] py-2 px-5 rounded-full hover:bg-[#800080d0] ">
+            <button className="text-white bg-green py-2 px-5 rounded-full hover:bg-green-dark ">
               Contact me
             </button>
           </Link>
@@ -37,7 +37,7 @@ const Male = () => {
       </div>
       <div>
         <Image
-          src="/images/P.png"
+          src="/images/aksh.jpg"
           width={350}
           height={350}
           alt="alt"
