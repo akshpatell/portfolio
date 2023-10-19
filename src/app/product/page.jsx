@@ -2,7 +2,7 @@ import React from "react";
 
 const Product = () => {
   return (
-    <div className="bg-gray-950 h-screen text-white">Product Coming Soon</div>
+    <div className="bg-gray-dark h-screen text-white">Product Coming Soon</div>
   );
 };
 
