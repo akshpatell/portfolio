@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
         <div className="fixed bottom-8 left-8 z-50 h-16 w-16 flex max-lg:bottom-16">
           <a
             className="relative flex h-[60px] w-[60px]"
-            href="/images/linkedin.png"
+            href="https://www.linkedin.com/in/akshpatel2003/"
             target="_blank"
           >
             <span className="sr-only">Linkedin Icon</span>
