@@ -6,13 +6,13 @@ import { usePathname } from "next/navigation";
 
 const navbarData = [
   { title: "Home", link: "/" },
-  { title: "Product", link: "/product" },
+  { title: "Project", link: "/project" },
   { title: "About", link: "/about" },
   {
     title: "Skill",
     link: "/skill",
   },
-  { title: "Blog", link: "/blog" },
+  // { title: "Blog", link: "/blog" },
 ];
 
 const Header = () => {
