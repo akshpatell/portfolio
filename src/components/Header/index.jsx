@@ -6,12 +6,12 @@ import { usePathname } from "next/navigation";
 
 const navbarData = [
   { title: "Home", link: "/" },
-  { title: "Project", link: "/project" },
   { title: "About", link: "/about" },
   {
     title: "Skill",
     link: "/skill",
   },
+  { title: "Project", link: "/project" },
   // { title: "Blog", link: "/blog" },
 ];
 

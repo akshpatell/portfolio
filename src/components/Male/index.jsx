@@ -41,7 +41,7 @@ const Male = () => {
           width={350}
           height={350}
           alt="alt"
-          className={Style.shape}
+          // className={Style.shape}
         />
       </div>
     </div>
