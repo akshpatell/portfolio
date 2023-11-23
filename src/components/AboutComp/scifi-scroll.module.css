@@ -1,0 +1,63 @@
+@layer demo.support {
+  .article {
+    display: grid;
+    gap: 2ch;
+    line-height: 1.5;
+    font-size: 150%;
+    max-inline-size: 40ch;
+    text-align: justify;
+  }
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes sci-fi {
+  from {
+    transform: rotateX(45deg) translateY(100vh);
+  }
+
+  to {
+    transform: rotateX(45deg) translateY(-500vh);
+  }
+}
+
+.body {
+  min-block-size: 300vh;
+  background-color: black;
+}
+
+.coverviewport {
+  display: grid;
+  place-content: center;
+}
+
+@supports (animation-timeline: scroll(root)) {
+  @media (prefers-reduced-motion: no-preference) {
+    .coverviewport {
+      position: fixed;
+      inset: 0;
+      perspective: 50vh;
+    }
+
+    .article {
+      block-size: 75%;
+      animation: 1s linear sci-fi;
+      animation-timeline: scroll(root);
+    }
+  }
+}

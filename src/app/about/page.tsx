@@ -1,8 +1,11 @@
 import React from "react";
+import AboutComp from "../../components/AboutComp/index";
 
 const About = () => {
   return (
-    <div className="bg-gray-dark h-screen text-white">About Coming Soon</div>
+    <div className="bg-black h-screen text-white">
+      <AboutComp />
+    </div>
   );
 };
 
